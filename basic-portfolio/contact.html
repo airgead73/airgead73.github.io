@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-	<title>Dan Moneypenny | Contact</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-	<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dan Moneypenny | Home</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+<body>
   <header>
+   <div class="centerWrap">
     <h1>Dan Moneypenny</h1>
-    <nav>
+    <nav class="nav_main">
       <ul>
-        <li><a href="index.html">about</a></li>
-        <li><a href="portfolio.html">portfolio</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a class="nav_link" href="index.html">about</a></li>
+        <li><a class="nav_link" href="portfolio.html">portfolio</a></li>
+        <li><a class="nav_link" href="#contact">contact</a></li>
       </ul>
     </nav>
+      </div>
   </header>
   
   <main>
-    <section>
-      <article>
+    <section id="contact">
+      <article class="contact">
         <h2>Contact Dan</h2>
         <form action="">
           <fieldset>
-            <label for="">name</label> <input type="text" />
-            <label for="">email</label> <input type="text" />
-            <label for="">message</label> <input type="text" />
+            <label for="name">Name</label> <input type="text" name="name" value="Joe Smith" />
+            <label for="email">Email</label> <input type="text" name="email" value="example@gmail.com" />
+            <label for="message">Message</label> <input type="text" name="message" />
             
-            <button>submit</button>
+            <input type="submit" value="Submit">
           </fieldset>
         </form>
       </article>
       <aside>
         <h3>Connect with Dan</h3>
-        <ul>
-          <li><a href="https://placeholder.com" title="Dan's Facebook profile"><img src="http://via.placeholder.com/75x75"></a></li><!--href="https://www.facebook.com/dan.moneypenny"-->
-          <li><a href="https://placeholder.com" title="Dan's Github profile"><img src="http://via.placeholder.com/75x75"></a></li><!--href="https://github.com/airgead73"-->
-          <li><a href="https://placeholder.com" title="Dan's Stack Overflow profile"><img src="http://via.placeholder.com/75x75"></a></li><!--href="https://stackexchange.com/users/11334237/dan-moneypenny"-->          
+       <ul class="nav_social">
+          <li>
+            <a class="social_link" href="https://www.facebook.com/dan.moneypenny" title="Dan's Facebook profile" target="_blank"><img src="./assets/images/facebook.svg" alt="presentation"></a>
+          </li><!--
+          
+          --><li>
+            <a class="social_link" href="https://github.com/airgead73" title="Dan's Github profile" target="_blank"><img src="./assets/images/github.svg" alt="presentation"></a>
+          </li><!--
+          
+          --><li>
+            <a class="social_link" href="https://stackexchange.com/users/11334237/dan-moneypenny" title="Dan's Stack Overflow profile" target="_blank"><img src="./assets/images/stack.svg" alt="presentation"></a>
+          </li>
+          
         </ul>
       </aside>
     </section>
@@ -50,4 +63,5 @@
   </footer>
 
 </body>
+
 </html>

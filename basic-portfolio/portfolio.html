@@ -1,67 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dan Moneypenny | Portfolio</title>
-	<link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-	<link rel="stylesheet" href="./assets/css/style.css" type="text/css">	
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dan Moneypenny | Home</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+<body>
   <header>
+   <div class="centerWrap">
     <h1>Dan Moneypenny</h1>
-    <nav>
+    <nav class="nav_main">
       <ul>
-        <li><a href="index.html">about</a></li>
-        <li><a href="#portfolio">portfolio</a></li>
-        <li><a href="contact.html">contact</a></li>
+        <li><a class="nav_link" href="index.html">about</a></li>
+        <li><a class="nav_link" href="#portfolio">portfolio</a></li>
+        <li><a class="nav_link" href="contact.html">contact</a></li>
       </ul>
     </nav>
+      </div>
   </header>
 
   <main>
-    <section>
-      <article id="portfolio">
+    <section id="portfolio">
+      <article class="portfolio">
         <h2>Dan's Portfolio</h2>
-        <ul>
+        <ul class="gallery">
           <li>
-            <figure>
-              <a href="https://placeholder.com" src="http://via.placeholder.com/150x150" title="gallery">
+            <figure class="gallery_link">
+              <img src="./assets/images/gallery_1.jpg" alt="gallery" title="gallery">
               <figcaption>
-                <h3>gallery</h3>
+                <h3>My family</h3>
               </figcaption>
-              </a>
+              
             </figure>
               
           </li>
           <li>
-            <figure>
-              <a href="https://placeholder.com" src="http://via.placeholder.com/150x150" title="gallery">
+            <figure class="gallery_link">
+              <img src="./assets/images/gallery_3.jpg" alt="gallery" title="gallery">
               <figcaption>
-                <h3>gallery</h3>
+                <h3>Places I've been</h3>
               </figcaption>
-              </a>
+              
             </figure>
               
           </li>
           <li>
-            <figure>
-              <a href="https://placeholder.com" src="http://via.placeholder.com/150x150" title="gallery">
+            <figure class="gallery_link">
+              <img src="./assets/images/gallery_2.jpg" alt="gallery" title="gallery">
               <figcaption>
-                <h3>gallery</h3>
+                <h3>Things I like to do</h3>
               </figcaption>
-              </a>
+              
             </figure>
               
           </li>
           <li>
-            <figure>
-              <a href="https://placeholder.com" src="http://via.placeholder.com/150x150" title="gallery">
+            <figure class="gallery_link">
+              <img src="./assets/images/gallery_4.jpg" alt="gallery" title="gallery">
               <figcaption>
-                <h3>gallery</h3>
+                <h3>Where I'm grew up</h3>
               </figcaption>
-              </a>
+             
             </figure>
               
           </li>          
@@ -69,19 +73,19 @@
       </article>
       <aside>
         <h3>Connect with Dan</h3>
-        <ul>
+       <ul class="nav_social">
           <li>
-            <a href="https://placeholder.com" title="Dan's Facebook profile"><img src="http://via.placeholder.com/75x75"></a>
+            <a class="social_link" href="https://www.facebook.com/dan.moneypenny" title="Dan's Facebook profile" target="_blank"><img src="./assets/images/facebook.svg" alt="presentation"></a>
+          </li><!--
+          
+          --><li>
+            <a class="social_link" href="https://github.com/airgead73" title="Dan's Github profile" target="_blank"><img src="./assets/images/github.svg" alt="presentation"></a>
+          </li><!--
+          
+          --><li>
+            <a class="social_link" href="https://stackexchange.com/users/11334237/dan-moneypenny" title="Dan's Stack Overflow profile" target="_blank"><img src="./assets/images/stack.svg" alt="presentation"></a>
           </li>
-          <!--href="https://www.facebook.com/dan.moneypenny"-->
-          <li>
-            <a href="https://placeholder.com" title="Dan's Github profile"><img src="http://via.placeholder.com/75x75"></a>
-          </li>
-          <!--href="https://github.com/airgead73"-->
-          <li>
-            <a href="https://placeholder.com" title="Dan's Stack Overflow profile"><img src="http://via.placeholder.com/75x75"></a>
-          </li>
-          <!--href="https://stackexchange.com/users/11334237/dan-moneypenny"-->
+          
         </ul>
       </aside>
     </section>
@@ -92,4 +96,5 @@
   </footer>
 
 </body>
+
 </html>
