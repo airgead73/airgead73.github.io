@@ -76,6 +76,10 @@ small {
 //////// content boxes
 */
 
+.footerWrap {
+    min-height: 100%;
+}
+
 header {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
@@ -114,12 +118,12 @@ main {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 100%;
+   position: relative;
+    padding-bottom: 50px;    
 }
 
 section {
-    position: relative;
-    padding-bottom: 50px;
+ 
 }
 
 article {
@@ -331,6 +335,7 @@ input[type=submit] {
     background-color: #4aaaa5;
     border: 1px solid #4aaaa5;
     border-radius: 2px;
+    transition: .3s;
 }
 
 input[type=submit]:hover {
